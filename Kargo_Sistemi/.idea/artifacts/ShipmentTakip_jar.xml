@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShipmentTakip:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShipmentTakip_jar</output-path>
+    <root id="archive" name="ShipmentTakip.jar">
+      <element id="module-output" name="ShipmentTakip" />
+    </root>
+  </artifact>
+</component>
