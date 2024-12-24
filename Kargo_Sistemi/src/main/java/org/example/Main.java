@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.time.LocalDate;
 
-import static org.example.TreeDeneme.isCityValid;
+import static org.example.TreeCreator.isCityValid;
 
 
 class Main {

@@ -3,7 +3,7 @@ package org.example;
 import java.util.List;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import static org.example.TreeDeneme.findShortestPath;
+import static org.example.TreeCreator.findShortestPath;
 
 public class Shipment
 {
@@ -58,13 +58,13 @@ public class Shipment
     private int SetDeliveryTime(String city)
     {
         Tree tree = TreeInitializer.initializeTree();
-        List<String> shortestPath = TreeDeneme.findShortestPath(tree.root, city);
+        List<String> shortestPath = TreeCreator.findShortestPath(tree.root, city);
         return shortestPath.size();
     }
 
     public List<String> findShortestPath() {
         Tree tree = TreeInitializer.initializeTree();
-        List<String> shortestPath = TreeDeneme.findShortestPath(tree.root, city);
+        List<String> shortestPath = TreeCreator.findShortestPath(tree.root, city);
         return shortestPath;
     }
 

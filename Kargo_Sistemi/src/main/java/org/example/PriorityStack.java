@@ -1,5 +1,4 @@
 package org.example;
-import java.time.LocalDate;
 
 public class PriorityStack
 {
@@ -122,39 +121,5 @@ public class PriorityStack
             heap[i].PrintInfo();
         }
         System.out.println();
-    }
-
-
-    public static void main(String[] args) {
-        PriorityStack pq = new PriorityStack(1000);
-
-        Shipment kisi=new Shipment("1","Antlya",LocalDate.now());
-        Shipment kisi1=new Shipment("2","Ankara",LocalDate.now());
-        Shipment kisi2=new Shipment("3","İstanbul",LocalDate.now());
-        Shipment kisi3=new Shipment("4","Diyarbakır",LocalDate.now());
-        Shipment kisi4=new Shipment("5","Yalova",LocalDate.now());
-
-        // Eleman ekle
-        pq.push(kisi);
-        pq.push(kisi1);
-        pq.push(kisi2);
-        pq.push(kisi3);
-        pq.push(kisi4);
-
-
-        pq.printStack();
-
-        pq.pop();
-
-        pq.printStack();
-        pq.pop();
-
-        pq.printStack();
-        pq.pop();
-
-        pq.printStack();
-        pq.pop();
-
-        pq.printStack();
     }
 }

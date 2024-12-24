@@ -3,7 +3,7 @@ package org.example;
 import java.util.Date;
 import java.util.List;
 import java.time.LocalDate;
-import static org.example.TreeDeneme.findShortestPath;
+import static org.example.TreeCreator.findShortestPath;
 
 public class SystemManager
 {

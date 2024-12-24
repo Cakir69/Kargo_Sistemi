@@ -156,7 +156,7 @@ class TreeInitializer
     }
 
 }
-public class TreeDeneme
+public class TreeCreator
 {
     public static List<String> findShortestPath(Node root, String target)
     {

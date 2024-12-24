@@ -115,61 +115,6 @@ public class SearchSystem {
         }
 
     }
-
-   /* public static Shipment BinarySearch(Shipment[] sortedShipments, String targetId)
-    {
-        int targetNum;
-
-        try
-        {
-            targetNum = Integer.parseInt(targetId.substring(targetId.length() - 4));
-        }
-        catch (NumberFormatException e)
-        {
-            return null;
-        }
-
-        int actualSize = 0;
-
-        for (Shipment shipment : sortedShipments)
-        {
-            if (shipment == null)
-            {
-                break;
-            }
-            actualSize++;
-        }
-
-        int left = 0, right = actualSize - 1;
-
-        while (left <= right)
-        {
-            int mid = left + (right - left) / 2;
-
-            if (sortedShipments[mid] == null)
-            {
-                break;
-            }
-
-            int midNum = Integer.parseInt(sortedShipments[mid].shipmentID.substring(sortedShipments[mid].shipmentID.length() - 4));
-
-            if (midNum == targetNum)
-            {
-                return sortedShipments[mid];
-            }
-            else if (midNum < targetNum)
-            {
-                left = mid + 1;
-            }
-            else
-            {
-                right = mid - 1;
-            }
-        }
-
-        return null;
-    }*/
-
 }
 
 

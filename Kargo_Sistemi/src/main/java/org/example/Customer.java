@@ -1,5 +1,4 @@
 package org.example;
-import java.util.Stack;
 
 public class Customer {
 
@@ -57,6 +56,5 @@ public class Customer {
         }
 
         last.next = shipment;
-        return;
     }
 }

@@ -67,32 +67,4 @@ public class ShipmentStack {
             stackArray[i].PrintInfo();
         }
     }
-
-  /* public static void main(String[] args) {
-        ShipmentStack q = new ShipmentStack(5);
-
-        // deQueue is not possible on empty queue
-        q.Pop();
-
-        // enQueue 5 elements
-        q.Push(new Shipment(1,"sd","sd"));
-        q.Push(new Shipment(2,"sd","sd"));
-        q.Push(new Shipment(3,"sd","sd"));
-        q.Push(new Shipment(4,"sd","sd"));
-        q.Push(new Shipment(5,"sd","sd"));
-
-        // 6th element can't be added to because the queue is full
-        q.Push(new Shipment(1,"sd","sd"));
-
-        q.display();
-
-        // deQueue removes element entered first i.e. 1
-        q.Pop();
-
-        // Now we have just 4 elements
-        q.display();
-
-    }*/
-
-
 }
